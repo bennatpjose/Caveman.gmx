@@ -19,12 +19,8 @@
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-<<<<<<< HEAD
   <PhysicsShapePoints>
     <point>16,16</point>
     <point>16,16</point>
   </PhysicsShapePoints>
-=======
-  <PhysicsShapePoints/>
->>>>>>> 892e3655a337cec176e1e8df38e1ba95d3b514bf
 </object>
