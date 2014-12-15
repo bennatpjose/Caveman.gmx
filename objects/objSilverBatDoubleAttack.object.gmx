@@ -209,7 +209,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>+5</string>
           </argument>
         </arguments>
       </action>

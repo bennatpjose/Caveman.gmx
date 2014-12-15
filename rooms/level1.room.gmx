@@ -60,6 +60,7 @@
     <instance objName="objTRex" x="6240" y="527" name="inst_37886FAD" locked="0" code="" scaleX="-2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_HealthNScore" x="0" y="0" name="inst_09D47C95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBatSpawner" x="800" y="384" name="inst_8B1F004E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBatSpawner" x="0" y="64" name="inst_ED7BF50C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
