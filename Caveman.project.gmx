@@ -20,6 +20,7 @@
     <sprite>sprites\spr_SilverBatDoubleAttackRight</sprite>
     <sprite>sprites\sprTRexAttack</sprite>
     <sprite>sprites\sprTRexCry</sprite>
+    <sprite>sprites\sprFireBall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background3</background>
