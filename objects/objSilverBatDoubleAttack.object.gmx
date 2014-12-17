@@ -233,7 +233,7 @@ instance_destroy();
             <kind>1</kind>
             <string>with(other)
 {
-instance_destroy()
+instance_destroy();
 }
 //instance_create(x,y, objExplosion);
 //instance_destroy();
