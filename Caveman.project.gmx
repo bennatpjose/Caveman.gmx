@@ -17,9 +17,14 @@
     <sprite>sprites\spr_Platform</sprite>
     <sprite>sprites\spr_TRex</sprite>
     <sprite>sprites\sprFireball</sprite>
+    <sprites name="Main Menu">
+      <sprite>sprites\spr_Exit</sprite>
+      <sprite>sprites\spr_Start</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Hills</background>
+    <background>background\bg_Title</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth1_Enemy2</path>
@@ -38,9 +43,19 @@
     <object>objects\obj_Enemy2Spawner</object>
     <object>objects\objTRex</object>
     <object>objects\objFireball</object>
+    <objects name="Main Menu">
+      <object>objects\obj_timer</object>
+      <object>objects\objStart</object>
+      <object>objects\obj_Exit</object>
+      <object>objects\obj_fade</object>
+      <object>objects\obj_GameOver</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Title</room>
+    <room>rooms\rm_Main_Menu</room>
     <room>rooms\rm_Test</room>
+    <room>rooms\rm_GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
