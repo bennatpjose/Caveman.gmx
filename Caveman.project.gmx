@@ -50,6 +50,7 @@
       <object>objects\obj_fade</object>
       <object>objects\obj_GameOver</object>
     </objects>
+    <object>objects\obj_BossHealth</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Title</room>
