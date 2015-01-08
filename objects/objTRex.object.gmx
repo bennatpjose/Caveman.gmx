@@ -8,6 +8,53 @@
   <parentName>obj_BossHealth</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>bosshealth</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>100</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_speed=.05;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_StoneAxe">
       <action>
         <libid>1</libid>
@@ -25,42 +72,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(other)
+            <string>
+bosshealth -= 20;
+with( other )
 {
-
 instance_destroy();
 }
-if(bosshealth=0){
+if(bosshealth==0){
 instance_destroy();
 room_goto(rm_GameOver);
 }
 
 
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>bosshealth</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-20</string>
           </argument>
         </arguments>
       </action>
@@ -82,11 +106,11 @@ room_goto(rm_GameOver);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bosshealth</string>
+            <string>health</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-20</string>
+            <string>-40</string>
           </argument>
         </arguments>
       </action>
@@ -108,8 +132,10 @@ room_goto(rm_GameOver);
             <kind>1</kind>
             <string>with(other)
 {
+if(health==0){
 instance_destroy()
 room_goto(rm_GameOver);
+}
 }
 
 </string>
