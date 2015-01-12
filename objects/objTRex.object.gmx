@@ -76,6 +76,7 @@
 bosshealth -= 20;
 with( other )
 {
+audio_play_sound(impact,9,false);
 instance_destroy();
 }
 if(bosshealth==0){

@@ -29,6 +29,8 @@
 Range=30;
 image_speed=0.1;
 alarm[0] = Range;
+
+
 </string>
           </argument>
         </arguments>
