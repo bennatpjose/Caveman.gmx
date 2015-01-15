@@ -348,7 +348,7 @@ if(key_shoot)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>85</string>
+            <string>10</string>
           </argument>
           <argument>
             <kind>0</kind>
