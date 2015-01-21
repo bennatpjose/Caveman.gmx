@@ -25,8 +25,10 @@
     <sprite>sprites\spr_TRex</sprite>
     <sprite>sprites\sprFireball</sprite>
     <sprites name="Main Menu">
-      <sprite>sprites\spr_Exit</sprite>
-      <sprite>sprites\spr_Start</sprite>
+      <sprite>sprites\spr_Kave</sprite>
+      <sprite>sprites\spr_Man</sprite>
+      <sprite>sprites\spr_Game</sprite>
+      <sprite>sprites\spr_Over</sprite>
     </sprites>
     <sprite>sprites\spr_CavemanStanding</sprite>
     <sprite>sprites\spr_CavemanStandingLeft</sprite>
@@ -47,6 +49,12 @@
     <path>paths\pth_FireBall5</path>
     <path>paths\pth_FireBall6</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_Menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Caveman</object>
     <object>objects\obj_Enemy1</object>
@@ -60,10 +68,13 @@
     <object>objects\objFireball</object>
     <objects name="Main Menu">
       <object>objects\obj_timer</object>
-      <object>objects\objStart</object>
-      <object>objects\obj_Exit</object>
       <object>objects\obj_fade</object>
       <object>objects\obj_GameOver</object>
+      <object>objects\obj_Menu</object>
+      <object>objects\obj_Kave</object>
+      <object>objects\obj_Man</object>
+      <object>objects\obj_Game</object>
+      <object>objects\obj_Over</object>
     </objects>
   </objects>
   <rooms name="rooms">
