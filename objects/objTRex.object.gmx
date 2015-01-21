@@ -73,7 +73,7 @@
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
-room_goto(rm_GameOver);
+room_goto(rm_credits);
 </string>
           </argument>
         </arguments>
