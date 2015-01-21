@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>y = y - 0.5;
+            <string>y = y - 10;
+if( y&lt;-750)
+{
+    instance_create(500,300,obj_smokingmonkey);
+
+}
 
 </string>
           </argument>

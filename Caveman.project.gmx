@@ -85,8 +85,8 @@
     <room>rooms\rm_Title</room>
     <room>rooms\rm_Main_Menu</room>
     <room>rooms\rm_Test</room>
-    <room>rooms\rm_GameOver</room>
     <room>rooms\rm_credits</room>
+    <room>rooms\rm_GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
