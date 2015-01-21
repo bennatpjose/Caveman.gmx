@@ -102,6 +102,7 @@ if (place_meeting(x,y,obj_Caveman))
 {    
     if (invincible = 1)
     {
+        audio_play_sound(impact, 10, false);
         with (obj_Caveman) health -= 10;   
         if(obj_Caveman.sprite_index=spr_CavemanLeft || obj_Caveman.sprite_index=spr_CavemanStandingLeft)
         {

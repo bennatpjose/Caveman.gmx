@@ -108,6 +108,7 @@ if ( x &gt; TurnLeftAt  )
             <kind>1</kind>
             <string>with(other)
 {
+audio_play_sound(impact, 10, false);
 instance_destroy();
 score += 20;
 }
@@ -139,6 +140,7 @@ instance_destroy();
         {
             with (obj_Caveman) health -= 20;            
             with (obj_Caveman) sprite_index = spr_Caveman_Hurt;
+            audio_play_sound(impact, 10, false);
             invincible = 0;
             alarm[0] = 60;
         }

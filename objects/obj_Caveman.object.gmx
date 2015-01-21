@@ -161,7 +161,11 @@ if (vsp &lt; 10) vsp+=grav;
 
 if (place_meeting(x,y+1,obj_Platform))
 {
-    vsp = key_jump * -jumpspeed;
+    if(key_jump = 1)
+    {    
+        vsp = key_jump * -jumpspeed;
+        audio_play_sound(jumping, 10, false);
+    }
 }
 
 //Horizontal Collision w/ Platform
@@ -205,9 +209,15 @@ if(key_shoot)
         var stoneaxe;
         stoneaxe=instance_create(x,y,obj_StoneAxe);
         if(sprite_index=spr_CavemanLeft || sprite_index=spr_CavemanStandingLeft)
+        {
             stoneaxe.direction=180;
+            audio_play_sound(throwing_weapon, 10, false);
+        }
         else if(sprite_index=spr_Caveman || sprite_index=spr_CavemanStanding)
+        {
             stoneaxe.direction=0;
+            audio_play_sound(throwing_weapon, 10, false);
+        }
         stoneaxe.image_angle=image_angle;
         stoneaxe.speed=10;
         alarm[0]=30;

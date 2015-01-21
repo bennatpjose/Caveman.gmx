@@ -99,7 +99,7 @@ room_goto(rm_GameOver);
             <string>bosshealth -= 20;
 with( other )
 {
-audio_play_sound(impact,9,false);
+audio_play_sound(impact, 10, false);
 instance_destroy();
 }
 if(bosshealth==0){
@@ -156,7 +156,8 @@ alarm[0]=100;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_Caveman)
+            <string>audio_play_sound(impact, 10, false);
+with(obj_Caveman)
 {
 if(health==0){
 instance_destroy()
