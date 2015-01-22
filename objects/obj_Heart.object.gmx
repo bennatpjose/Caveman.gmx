@@ -11,21 +11,33 @@
     <event eventtype="4" ename="obj_Caveman">
       <action>
         <libid>1</libid>
-        <id>721</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_health</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>+20</string>
+            <kind>1</kind>
+            <string>audio_play_sound(healing, 10, false);
+with(obj_Caveman)
+{
+    if(health &lt;=80 )
+    {
+        health += 20;
+    }
+    else
+    {
+        health = 100;
+    }
+}
+</string>
           </argument>
         </arguments>
       </action>

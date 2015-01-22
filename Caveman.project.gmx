@@ -10,6 +10,7 @@
     <sound>sound\jumping</sound>
     <sound>sound\throwing_weapon</sound>
     <sound>sound\boss_fireball</sound>
+    <sound>sound\healing</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Caveman</sprite>
