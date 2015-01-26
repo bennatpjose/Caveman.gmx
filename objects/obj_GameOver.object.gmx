@@ -28,7 +28,7 @@
             <string>
 draw_set_color(c_white)
 draw_set_font(fnt_Menu);
-draw_text(400,215, "Press Enter to restart game");
+draw_text(375,215, "Press Enter to restart game");
 </string>
           </argument>
         </arguments>
