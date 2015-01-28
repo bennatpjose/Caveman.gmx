@@ -34,6 +34,7 @@ with(obj_Caveman)
     }
     else
     {
+        score += health - 80;
         health = 100;
     }
 }

@@ -3,8 +3,8 @@
   <caption></caption>
   <width>6400</width>
   <height>762</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>22</vsnap>
+  <hsnap>20</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -50,7 +50,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Caveman" x="67" y="684" name="inst_A173D499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Caveman" x="1680" y="110" name="inst_A173D499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Restart" x="160" y="128" name="inst_762111D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="3533" y="715" name="inst_7E9F5418" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="402" y="663" name="inst_F5C8B0F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -61,14 +61,71 @@
     <instance objName="obj_Enemy2Spawner" x="5664" y="480" name="inst_71E0716D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy2Spawner" x="5664" y="512" name="inst_1D14EDF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy2Spawner" x="5664" y="576" name="inst_8661CE0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Heart" x="962" y="694" name="inst_CA19C630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Heart" x="1184" y="694" name="inst_F701DB6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="580" y="696" name="inst_CA19C630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="401" y="608" name="inst_910579C9" locked="0" code="" scaleX="0.150000005960464" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Platform" x="486" y="458" name="inst_2592B865" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="obj_Platform" x="503" y="457" name="inst_BD7F363E" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_Platform" x="76" y="514" name="inst_84C7C1B6" locked="0" code="" scaleX="0.150000005960464" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="26" y="314" name="inst_8C4E0DC0" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy1" x="76" y="419" name="inst_66D3B90A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy1" x="68" y="431" name="inst_66D3B90A" locked="0" code="" scaleX="-0.781955003738403" scaleY="0.847826063632965" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="607" y="197" name="inst_C84A8CBB" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="486" y="458" name="inst_74A053B0" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_Platform" x="503" y="457" name="inst_F9285CDE" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_Platform" x="867" y="306" name="inst_8996A897" locked="0" code="" scaleX="0.600000023841858" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_Platform" x="887" y="305" name="inst_A5B73433" locked="0" code="" scaleX="0.600000023841858" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_Platform" x="614" y="312" name="inst_BB131DCD" locked="0" code="" scaleX="0.200000002980232" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="564" y="291" name="inst_B38CDB1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="704" y="480" name="inst_ED3C274C" locked="0" code="" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="707" y="147" name="inst_8AFB6A87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="809" y="428" name="inst_8DA4DC46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="27" y="295" name="inst_D358C364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="401" y="416" name="inst_0B99848B" locked="0" code="" scaleX="0.150000005960464" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="451" y="299" name="inst_71E40550" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="391" y="366" name="inst_4BDC2EB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="637" y="608" name="inst_C0592FA2" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy1" x="564" y="105" name="inst_3BBD174D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy1" x="691" y="526" name="inst_DB7611FB" locked="0" code="" scaleX="0.74436092376709" scaleY="0.847826063632965" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="672" y="667" name="inst_577A058B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1161" y="665" name="inst_7E98B3E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="997" y="556" name="inst_422EEFCC" locked="0" code="" scaleX="0.200000002980232" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="942" y="532" name="inst_966DFC86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy1" x="1025" y="474" name="inst_52DD0F26" locked="0" code="" scaleX="-0.880596995353699" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="1701" y="431" name="inst_9F09C870" locked="0" code="" scaleX="0.550000011920929" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_Platform" x="1651" y="628" name="inst_48BF2C3C" locked="0" code="" scaleX="0.0799999982118607" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="1649" y="509" name="inst_46CBEC7D" locked="0" code="" scaleX="0.0900000035762787" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="1643" y="389" name="inst_67E1B93F" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="1638" y="265" name="inst_07EDE934" locked="0" code="" scaleX="0.109999999403954" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="1723" y="145" name="inst_3B36B8B3" locked="0" code="" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="1719" y="430" name="inst_CD179060" locked="0" code="" scaleX="0.550000011920929" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_Platform" x="2203" y="221" name="inst_F7777CB1" locked="0" code="" scaleX="0.600000023841858" scaleY="1" colour="4294967295" rotation="30"/>
+    <instance objName="obj_Platform" x="1924" y="592" name="inst_1D7EAB8F" locked="0" code="" scaleX="0.449999988079071" scaleY="1" colour="4294967295" rotation="330"/>
+    <instance objName="obj_Fire" x="1625" y="95" name="inst_A756121A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1736" y="95" name="inst_D6509D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1848" y="96" name="inst_50A1B097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="2589" y="68" name="inst_9AA7F4C4" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="2718" y="39" name="inst_5CEE3941" locked="0" code="" scaleX="0.0700000002980232" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_Heart" x="2683" y="49" name="inst_19CA5937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2460" y="660" name="inst_2E1E12D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2420" y="660" name="inst_49797A4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2420" y="660" name="inst_51D6FB5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2620" y="660" name="inst_F881616B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2660" y="660" name="inst_E79DBBAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2740" y="660" name="inst_803F4512" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2500" y="660" name="inst_43A7193A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2580" y="660" name="inst_90D8449F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2780" y="660" name="inst_84E8E3D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2820" y="660" name="inst_DAAE73C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2900" y="660" name="inst_E10D259C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2940" y="660" name="inst_CBDD2C60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="2980" y="660" name="inst_958806CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="3060" y="660" name="inst_DBAD4434" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="3100" y="660" name="inst_0DA28E17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="3140" y="660" name="inst_0CB4F8A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="2350" y="617" name="inst_021DD4B0" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="3216" y="661" name="inst_2E86F9AE" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_Platform" x="2540" y="616" name="inst_603EA5BF" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="2700" y="616" name="inst_97C686F5" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="2860" y="616" name="inst_EB1FF70E" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="3020" y="616" name="inst_43019669" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Platform" x="3190" y="616" name="inst_03C02EAA" locked="0" code="" scaleX="0.0599999986588955" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

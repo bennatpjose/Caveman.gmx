@@ -28,6 +28,31 @@
             <string>///Initialize Variables
 invincible = 1;
 image_speed=0.1;
+direction = -1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (obj_Caveman) bounce = true;
+with (obj_Caveman) sprite_index = spr_CavemanStanding;
 </string>
           </argument>
         </arguments>
@@ -51,6 +76,7 @@ image_speed=0.1;
           <argument>
             <kind>1</kind>
             <string>with (obj_Caveman) bounce = true;
+with (obj_Caveman) sprite_index = spr_CavemanStandingLeft;
 </string>
           </argument>
         </arguments>
@@ -73,7 +99,7 @@ image_speed=0.1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_Caveman) sprite_index = spr_Caveman;
+            <string>
 invincible = 1;
 </string>
           </argument>
@@ -104,42 +130,59 @@ if (place_meeting(x,y,obj_Caveman))
     {
         audio_play_sound(impact, 10, false);
         with (obj_Caveman) health -= 10;   
-        if(obj_Caveman.sprite_index=spr_CavemanLeft || obj_Caveman.sprite_index=spr_CavemanStandingLeft)
+        if(obj_Caveman.sprite_index==spr_CavemanLeft || obj_Caveman.sprite_index==spr_CavemanStandingLeft)
         {
+            //show_message("0 stepin");
             direction = 0;
-        }
-        else if(obj_Caveman.sprite_index=spr_Caveman || obj_Caveman.sprite_index=spr_CavemanStanding)
-        {
-            direction = 1;
-        }         
-        with (obj_Caveman) sprite_index = spr_Caveman_Hurt;
-        invincible = 0; 
-        with (obj_Caveman) 
-        {
-             //show_message(jumpspeed);    
-            if(vsp &gt; 0)
+            with (obj_Caveman) 
             {
-                vsp = -jumpspeed;        
-            }
-            else
-            {
-               
-                while(bounce)
+                 //show_message(jumpspeed);    
+                if(vsp &gt; 0)
                 {
-                    //show_message(direction);               
-                    bounce = false;
-                    if(obj_Fire.direction = 0)
-                    {                        
-                        x+=15;                       
+                    vsp = -jumpspeed;  
+                    with (obj_Caveman) sprite_index = spr_Caveman_Hurt;      
+                }
+                else
+                {
+                   
+                    while(bounce)
+                    {                                       
+                        bounce = false;                                      
+                        x+=15; 
+                        with (obj_Caveman) sprite_index = spr_Caveman_Hurt;              
+                        obj_Fire.alarm[1]=30;
                     }
-                    else if(obj_Fire.direction = 1)
-                    {                        
-                        x-=15;                                        
-                    }
-                    obj_Fire.alarm[1]=30;
                 }
             }
         }
+        else if(obj_Caveman.sprite_index==spr_Caveman || obj_Caveman.sprite_index==spr_CavemanStanding)
+        {
+            //show_message("1 stepin");
+            direction = 1;
+            with (obj_Caveman) 
+            {
+                 //show_message(jumpspeed);    
+                if(vsp &gt; 0)
+                {
+                    vsp = -jumpspeed;   
+                    with (obj_Caveman) sprite_index = spr_Caveman_Hurt;     
+                }
+                else
+                {
+                   
+                    while(bounce)
+                    {                                       
+                        bounce = false;                                      
+                        x-=15;
+                        with (obj_Caveman) sprite_index = spr_Caveman_Hurt;               
+                        obj_Fire.alarm[2]=30;
+                    }
+                }
+            }
+        }  
+             
+        with (obj_Caveman) sprite_index = spr_Caveman_Hurt;
+        invincible = 0;       
         alarm[0]=60;        
         
     }        
