@@ -106,14 +106,13 @@ if ( x &gt; TurnLeftAt  )
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(other)
+            <string>with(obj_StoneAxe)
 {
+instance_destroy();
+}
 audio_play_sound(impact, 10, false);
 instance_destroy();
-score += 20;
-}
-//instance_create(x,y, objExplosion);
-instance_destroy();
+with (obj_Caveman)alarm[2] = 01; 
 </string>
           </argument>
         </arguments>
@@ -137,17 +136,14 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>if (invincible = 1)
-        {
-            with (obj_Caveman) health -= 20;            
-            with (obj_Caveman) sprite_index = spr_Caveman_Hurt;
-            audio_play_sound(impact, 10, false);
-            invincible = 0;
-            alarm[0] = 60;
-        }
-if (invincible = 0){
-path_reverse(Enemy2Path);
-}        
-        
+    {                    
+        with (obj_Caveman) sprite_index = spr_Caveman_Hurt;
+        audio_play_sound(impact, 10, false);
+        invincible = 0;
+        instance_destroy();
+        with (obj_Caveman)alarm[1] = 01;        
+        with (obj_Caveman)alarm[2] = 01; 
+    }
 </string>
           </argument>
         </arguments>
