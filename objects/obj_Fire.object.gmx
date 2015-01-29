@@ -124,6 +124,7 @@ invincible = 1;
           <argument>
             <kind>1</kind>
             <string>///Player Collision
+
 if (place_meeting(x,y,obj_Caveman))
 {    
     if (invincible = 1)
@@ -173,7 +174,7 @@ if (place_meeting(x,y,obj_Caveman))
                     while(bounce)
                     {                                       
                         bounce = false;                                      
-                        x-=15;
+                        x-=25;
                         with (obj_Caveman) sprite_index = spr_Caveman_Hurt;               
                         obj_Fire.alarm[2]=30;
                     }
@@ -187,6 +188,7 @@ if (place_meeting(x,y,obj_Caveman))
         
     }        
 }
+
 </string>
           </argument>
         </arguments>

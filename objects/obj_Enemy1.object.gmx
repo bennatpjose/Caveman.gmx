@@ -166,15 +166,18 @@ if (place_meeting(x,y,obj_Caveman))
         sprite_index = spr_Enemy1Death;            
         if(sprite_index==spr_Enemy1Death)
         {            
-            spr_Enemy1Death.image_speed=0.02;
-            image_index=1;
+            image_speed=0.02;
+            //image_index=1;
             //spr_Enemy1Death.image_speed=0.02;
-            image_index=2;
+            //image_index=2;
             //spr_Enemy1Death.image_speed=0.02;
-            image_index=3;
+            //image_index=3;
             //spr_Enemy1Death.image_speed=0;
-            with(obj_Caveman){alarm[2]=05;} 
-            alarm[3]=30;     
+            with (obj_Caveman)
+            {
+                alarm[2]=30;
+            } 
+            //alarm[3]=30;     
                               
         }        
     }
@@ -231,7 +234,7 @@ if (place_meeting(x,y,obj_Caveman))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_StoneAxe)
+            <string>with(other)
 {
 
 //Set the subimage to 5
@@ -239,20 +242,57 @@ if (place_meeting(x,y,obj_Caveman))
 instance_destroy();
 
 }
+sprite_index = spr_Enemy1Death;
+
+
 audio_play_sound(impact, 10, false);
 //instance_create(x,y, objExplosion);
 sprite_index = spr_Enemy1Death;
-if(sprite_index==spr_Enemy1Death){
-spr_Enemy1Death.image_speed=0.02;
-image_index=1;
-//spr_Enemy1Death.image_speed=0.02;
-image_index=2;
-//spr_Enemy1Death.image_speed=0.02;
-image_index=3;
-//spr_Enemy1Death.image_speed=0;
-alarm[3]=30;
+//if(sprite_index==spr_Enemy1Death){
+image_speed = 0.02;
+
 with(obj_Caveman)alarm[2]=01;
-}
+
+//image_index=1;
+//spr_Enemy1Death.image_speed=0.02;
+//image_index=2;
+//spr_Enemy1Death.image_speed=0.02;
+//image_index=3;
+//spr_Enemy1Death.image_speed=0;
+//alarm[3]=30;
+//}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+
+
+if(sprite_index==spr_Enemy1Death)
+    instance_destroy();
+
+//{
+ //       sprite_index = spr_Enemy1Dead;
+ //       alarm[3]=30;
+//}
 </string>
           </argument>
         </arguments>

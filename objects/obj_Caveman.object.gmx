@@ -122,6 +122,55 @@ bounce=true;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>burn</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>burn=0;
+hspeed=0;
+vspeed=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="2">
       <action>
@@ -213,7 +262,7 @@ health-=20;
             <kind>1</kind>
             <string>///Players Movement
 //Get the players input
-if(bounce = true)
+if(bounce = true &amp;&amp; burn==0)
 {
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
@@ -251,9 +300,9 @@ hsp = move * movespeed;
 }
 if (vsp &lt; 10) vsp+=grav;
 
-if (place_meeting(x,y+1,obj_Platform))
+if (place_meeting(x+10,y+1,obj_Platform))
 {
-    if(key_jump = 1)
+    if(key_jump == 1)
     {    
         vsp = key_jump * -jumpspeed;
         audio_play_sound(jumping, 10, false);
@@ -411,6 +460,33 @@ if(key_shoot)
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_Fire">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*burn = 1;
+hspeed= (-(hspeed*2));
+vspeed=-5;
+alarm[3]=50;
+*/
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="8" enumb="64">
