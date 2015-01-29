@@ -50,7 +50,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Caveman" x="1680" y="110" name="inst_A173D499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Caveman" x="40" y="682" name="inst_A173D499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Restart" x="160" y="128" name="inst_762111D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="3533" y="715" name="inst_7E9F5418" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="402" y="663" name="inst_F5C8B0F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -97,8 +97,8 @@
     <instance objName="obj_Platform" x="1719" y="430" name="inst_CD179060" locked="0" code="" scaleX="0.550000011920929" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_Platform" x="2203" y="221" name="inst_F7777CB1" locked="0" code="" scaleX="0.600000023841858" scaleY="1" colour="4294967295" rotation="30"/>
     <instance objName="obj_Platform" x="1924" y="592" name="inst_1D7EAB8F" locked="0" code="" scaleX="0.449999988079071" scaleY="1" colour="4294967295" rotation="330"/>
-    <instance objName="obj_Fire" x="1625" y="95" name="inst_A756121A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="1736" y="95" name="inst_D6509D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1632" y="93" name="inst_A756121A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1731" y="97" name="inst_D6509D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="1848" y="96" name="inst_50A1B097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2589" y="68" name="inst_9AA7F4C4" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2718" y="39" name="inst_5CEE3941" locked="0" code="" scaleX="0.0700000002980232" scaleY="1" colour="4294967295" rotation="90"/>
