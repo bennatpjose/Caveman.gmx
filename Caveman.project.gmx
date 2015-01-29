@@ -52,6 +52,9 @@
     <path>paths\pth1_Enemy2</path>
     <path>paths\pth2_Enemy2</path>
     <path>paths\pth3_Enemy2</path>
+    <path>paths\pth4_Enemy2</path>
+    <path>paths\pth5_Enemy2</path>
+    <path>paths\pth6_Enemy2</path>
     <path>paths\pth_FireBall1</path>
     <path>paths\pth_FireBall2</path>
     <path>paths\pth_FireBall3</path>

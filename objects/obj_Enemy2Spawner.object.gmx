@@ -61,7 +61,7 @@ Enemy2Exists = true;
 with( Enemy2 )
 {   
 
-    path_start(choose(pth1_Enemy2,pth2_Enemy2,pth3_Enemy2), 4,2, true);
+    path_start(choose(pth1_Enemy2,pth2_Enemy2,pth3_Enemy2,pth4_Enemy2,pth5_Enemy2,pth6_Enemy2), 4,2, true);
     Enemy2.TurnLeftAt = 645;
     Enemy2.TurnRightAt= 58;
 }

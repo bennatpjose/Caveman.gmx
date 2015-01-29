@@ -312,6 +312,7 @@ if (place_meeting(x+10,y+1,obj_Platform))
 //Horizontal Collision w/ Platform
 if (place_meeting(x+hsp,y,obj_Platform))
 {
+//show_message('this is horizontal collision');
     while(!place_meeting(x+sign(hsp),y,obj_Platform))
     {
         x += sign(hsp);
