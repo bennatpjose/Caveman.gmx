@@ -61,6 +61,7 @@
     <path>paths\pth_FireBall4</path>
     <path>paths\pth_FireBall5</path>
     <path>paths\pth_FireBall6</path>
+    <path>paths\pth_Fireball7</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
@@ -98,10 +99,10 @@
     <object>objects\obj_Heart</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_GameOver</room>
-    <room>rooms\rm_Main_Menu</room>
     <room>rooms\rm_Title</room>
+    <room>rooms\rm_Main_Menu</room>
     <room>rooms\rm_Pat</room>
+    <room>rooms\rm_GameOver</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_Test</room>
   </rooms>

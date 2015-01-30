@@ -33,7 +33,7 @@ grav = 0.2;
 hsp = 0;
 vsp = 0;
 invincible = 1;
-image_speed=0.1;
+image_speed=0.25;
 </string>
           </argument>
         </arguments>
@@ -166,7 +166,7 @@ if (place_meeting(x,y,obj_Caveman))
         sprite_index = spr_Enemy1Death;            
         if(sprite_index==spr_Enemy1Death)
         {            
-            image_speed=0.02;
+            image_speed=0.2;
             //image_index=1;
             //spr_Enemy1Death.image_speed=0.02;
             //image_index=2;
@@ -249,7 +249,7 @@ audio_play_sound(impact, 10, false);
 //instance_create(x,y, objExplosion);
 sprite_index = spr_Enemy1Death;
 //if(sprite_index==spr_Enemy1Death){
-image_speed = 0.02;
+//image_speed = 0.02;
 
 with(obj_Caveman)alarm[2]=01;
 
