@@ -26,12 +26,34 @@
           <argument>
             <kind>1</kind>
             <string>mute = 'false';
+//sound_play(snd_Game);
+audio_play_sound(snd_Game,1,0);
 </string>
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>212</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>snd_Menu</sound>
+          </argument>
+        </arguments>
+      </action>
     </event>
-    <event eventtype="9" enumb="77">
+    <event eventtype="5" enumb="77">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -50,16 +72,17 @@
             <kind>1</kind>
             <string>if mute = 'false'
 {
-       show_message("Test");
-       //sound_global_volume(0);
-       sound_stop(snd_Game);
+       show_message("Pausing snd_Game");
+       audio_pause_sound(snd_Game);
        mute = 'true'
+       
 }
 
 else
 {
        mute = 'false';
-       sound_global_volume(1);
+       show_message("Mute = False. Audio Should Play.");
+       audio_play_sound(snd_Game,1,1);
 }
 </string>
           </argument>
