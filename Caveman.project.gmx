@@ -93,13 +93,14 @@
       <object>objects\obj_Credits</object>
       <object>objects\obj_smokingmonkey</object>
       <object>objects\obj_TitleSound</object>
+      <object>objects\obj_Mute</object>
     </objects>
     <object>objects\obj_Heart</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Pat</room>
     <room>rooms\rm_Title</room>
     <room>rooms\rm_Main_Menu</room>
-    <room>rooms\rm_Pat</room>
     <room>rooms\rm_GameOver</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_Test</room>

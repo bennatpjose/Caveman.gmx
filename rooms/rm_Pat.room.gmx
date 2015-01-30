@@ -138,6 +138,7 @@
     <instance objName="obj_Enemy2Spawner" x="5660" y="462" name="inst_EE989D65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="5620" y="594" name="inst_E82969CD" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="18"/>
     <instance objName="obj_Platform" x="5862" y="556" name="inst_0AF1BE52" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Mute" x="40" y="154" name="inst_C9274D49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
