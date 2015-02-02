@@ -103,6 +103,10 @@ audio_play_sound(impact, 10, false);
 instance_destroy();
 }
 if(bosshealth==0){
+
+with(objFireball){
+instance_destroy();
+}
 sprite_index=spr_TRexDeath;
 alarm[0]=100;
 //instance_destroy(); this is in the alarm[0]
