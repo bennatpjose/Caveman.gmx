@@ -51,13 +51,13 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Caveman" x="5814" y="527" name="inst_A173D499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Caveman" x="24" y="689" name="inst_A173D499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Restart" x="160" y="128" name="inst_762111D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="3533" y="715" name="inst_7E9F5418" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="402" y="663" name="inst_F5C8B0F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="-6" y="376" name="inst_2A6E4A99" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="objTRex" x="6285" y="574" name="inst_0B344303" locked="0" code="" scaleX="1.47852766513824" scaleY="1.50785338878632" colour="4294967295" rotation="0"/>
-    <instance objName="objFb2Spawner" x="6180" y="528" name="inst_97A5F9BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objFireball" x="6175" y="553" name="inst_54DCE73C" locked="0" code="" scaleX="0.488888889551163" scaleY="0.491666674613953" colour="4294967295" rotation="0"/>
     <instance objName="obj_fade" x="0" y="32" name="inst_A8340D58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="4244" y="665" name="inst_0CDA0B74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy2Spawner" x="5660" y="418" name="inst_1D182108" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
