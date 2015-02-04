@@ -82,6 +82,7 @@
     <object>objects\obj_Enemy2Spawner</object>
     <object>objects\objTRex</object>
     <object>objects\objFireball</object>
+    <object>objects\objFb2</object>
     <objects name="Main Menu">
       <object>objects\obj_timer</object>
       <object>objects\obj_fade</object>
@@ -97,6 +98,7 @@
       <object>objects\obj_GameSound</object>
     </objects>
     <object>objects\obj_Heart</object>
+    <object>objects\objFb2Spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Title</room>
