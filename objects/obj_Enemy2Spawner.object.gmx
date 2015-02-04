@@ -33,8 +33,6 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,22 +49,49 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Spawning the bat at a position 
-if(instance_exists(obj_Caveman)){
-if(Enemy2Exists = false)
-{
-var Enemy2 = instance_create(x,y, obj_Enemy2);
-Enemy2Exists = true;
-
-with( Enemy2 )
-{   
-
-    path_start(choose(pth1_Enemy2,pth2_Enemy2,pth3_Enemy2,pth4_Enemy2,pth5_Enemy2), 4,2, true);
-    Enemy2.TurnLeftAt = 645;
-    Enemy2.TurnRightAt= 58;
-}
-}
-}
+            <string>var Enemy21 = instance_create(x,y, obj_Enemy2);
+        
+        
+        with( Enemy21 )
+        {   
+        
+            path_start(pth1_Enemy2, 4,1, true);
+            //Enemy1.TurnLeftAt = 645;
+           // Enemy1.TurnRightAt= 58;
+        }
+        
+var Enemy22 = instance_create(x,y, obj_Enemy2);
+       
+        
+        with( Enemy22 )
+        {   
+        
+            path_start(pth2_Enemy2, 4,3, true);
+           // Enemy2.TurnLeftAt = 645;
+            //Enemy2.TurnRightAt= 58;
+        }
+        
+var Enemy23 = instance_create(x,y, obj_Enemy2);
+       
+        
+        with( Enemy23 )
+        {   
+        
+            path_start(pth3_Enemy2, 4,1, true);
+            //Enemy3.TurnLeftAt = 645;
+            //Enemy3.TurnRightAt= 58;
+        }
+        
+var Enemy24 = instance_create(x,y, obj_Enemy2);
+       
+        
+        with( Enemy24 )
+        {   
+        
+            path_start(pth4_Enemy2, 4,2, true);
+           // Enemy4.TurnLeftAt = 645;
+            //Enemy4.TurnRightAt= 58;
+        }        
 </string>
           </argument>
         </arguments>

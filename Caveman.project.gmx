@@ -53,15 +53,6 @@
     <path>paths\pth2_Enemy2</path>
     <path>paths\pth3_Enemy2</path>
     <path>paths\pth4_Enemy2</path>
-    <path>paths\pth5_Enemy2</path>
-    <path>paths\pth6_Enemy2</path>
-    <path>paths\pth_FireBall1</path>
-    <path>paths\pth_FireBall2</path>
-    <path>paths\pth_FireBall3</path>
-    <path>paths\pth_FireBall4</path>
-    <path>paths\pth_FireBall5</path>
-    <path>paths\pth_FireBall6</path>
-    <path>paths\pth_Fireball7</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
@@ -97,6 +88,8 @@
       <object>objects\obj_GameSound</object>
     </objects>
     <object>objects\obj_Heart</object>
+    <object>objects\objFb2</object>
+    <object>objects\objFb2Spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Title</room>

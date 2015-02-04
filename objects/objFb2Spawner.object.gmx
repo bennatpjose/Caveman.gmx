@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>var fb = instance_create(x,y, objFb2);
-fb.hspeed = -12;
+fb.hspeed = -5;
 alarm[0]=30;
 
 </string>
@@ -52,15 +52,15 @@ alarm[0]=30;
           <argument>
             <kind>1</kind>
             <string>var fb1 = instance_create(x,y, objFb2);
-fb1.hspeed = -12;
+fb1.hspeed = -5;
 fb1.vspeed = 4;
 
 var fb2 = instance_create(x,y, objFb2);
-fb2.hspeed = -12;
+fb2.hspeed = -5;
 
 
 var fb3 = instance_create(x,y, objFb2);
-fb3.hspeed = -12;
+fb3.hspeed = -5;
 fb3.vspeed = -4;
 
 alarm[0]=50;
@@ -87,16 +87,16 @@ alarm[0]=50;
           <argument>
             <kind>1</kind>
             <string>var fb1 = instance_create(x,y, objFb2);
-fb1.hspeed = -12;
-fb1.vspeed = 12;
+fb1.hspeed = -5;
+fb1.vspeed = 5;
 
 var fb2 = instance_create(x,y, objFb2);
-fb2.hspeed = -12;
+fb2.hspeed = -5;
 
 
 var fb3 = instance_create(x,y, objFb2);
-fb3.hspeed = -12;
-fb3.vspeed = -12;
+fb3.hspeed = -5;
+fb3.vspeed = -5;
 
 alarm[3]=50;
 </string>
@@ -122,11 +122,11 @@ alarm[3]=50;
           <argument>
             <kind>1</kind>
             <string>var fb1 = instance_create(x,y, objFb2);
-fb1.hspeed = -12;
-fb1.vspeed = 12;
+fb1.hspeed = -5;
+fb1.vspeed = 5;
 
 var fb2 = instance_create(x,y, objFb2);
-fb2.hspeed = -12;
+fb2.hspeed = -5;
 
 
 alarm[2]=50;
@@ -153,8 +153,8 @@ alarm[2]=50;
           <argument>
             <kind>1</kind>
             <string>var fb = instance_create(x,y, objFb2);
-fb.hspeed = -12;
-fb.vspeed = 12;
+fb.hspeed = -5;
+fb.vspeed = -5;
 
 alarm[1]=50;
 </string>

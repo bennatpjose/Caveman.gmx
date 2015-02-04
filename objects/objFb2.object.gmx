@@ -123,7 +123,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>//show_message("what???");
 with(obj_Caveman)
 {
 //instance_destroy();

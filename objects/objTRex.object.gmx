@@ -72,7 +72,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>show_message("Alarm Fired");
+instance_destroy();
 room_goto(rm_credits);
 </string>
           </argument>
@@ -99,22 +100,63 @@ room_goto(rm_credits);
             <string>bosshealth -= 20;
 with( other )
 {
-audio_play_sound(impact, 10, false);
-instance_destroy();
+    audio_play_sound(impact, 10, false);
+    instance_destroy();
 }
-if(bosshealth==0){
+if(bosshealth == 0){
 
-with(objFireball){
-instance_destroy();
-}
-sprite_index=spr_TRexDeath;
-alarm[0]=100;
-//instance_destroy(); this is in the alarm[0]
-//room_goto(rm_GameOver); this is in the alarm[0]
+    with(objFb2Spawner){
+        instance_destroy();
+    }
+    sprite_index=spr_TRexDeath;
+    alarm[0]=800;
+    show_message("Alarm Set to 800");
+    //instance_destroy(); this is in the alarm[0]
+    //room_goto(rm_GameOver); this is in the alarm[0]
 }
 
 
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>532</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_effect</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>3</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>13</kind>
+            <string>255</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -160,7 +202,9 @@ alarm[0]=100;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(impact, 10, false);
+            <string>
+//show_message("Is this the end of caveman?");
+audio_play_sound(impact, 10, false);
 with(obj_Caveman)
 {
 if(health==0){
