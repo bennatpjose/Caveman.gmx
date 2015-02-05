@@ -37,6 +37,9 @@
       <sprite>sprites\spr_Over</sprite>
       <sprite>sprites\spr_credits</sprite>
       <sprite>sprites\spr_smokingmonkey</sprite>
+      <sprite>sprites\spr_Space</sprite>
+      <sprite>sprites\spr_WASD</sprite>
+      <sprite>sprites\spr_Mouse</sprite>
     </sprites>
     <sprite>sprites\spr_CavemanStanding</sprite>
     <sprite>sprites\spr_CavemanStandingLeft</sprite>
@@ -60,6 +63,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_Menu</font>
+    <font>fonts\fnt_Control</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_Caveman</object>
@@ -86,14 +90,15 @@
       <object>objects\obj_smokingmonkey</object>
       <object>objects\obj_TitleSound</object>
       <object>objects\obj_GameSound</object>
+      <object>objects\obj_Space</object>
     </objects>
     <object>objects\obj_Heart</object>
     <object>objects\objFb2</object>
     <object>objects\objFb2Spawner</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Title</room>
     <room>rooms\rm_Main_Menu</room>
+    <room>rooms\rm_Title</room>
     <room>rooms\rm_Pat</room>
     <room>rooms\rm_GameOver</room>
     <room>rooms\rm_credits</room>
