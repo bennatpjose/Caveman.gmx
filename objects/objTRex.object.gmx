@@ -72,7 +72,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message("Alarm Fired");
+            <string>//show_message("Alarm Fired");
 instance_destroy();
 room_goto(rm_credits);
 </string>
@@ -109,8 +109,8 @@ if(bosshealth == 0){
         instance_destroy();
     }
     sprite_index=spr_TRexDeath;
-    alarm[0]=800;
-    show_message("Alarm Set to 800");
+    alarm[0]=200;
+    //show_message("Alarm Set to 800");
     //instance_destroy(); this is in the alarm[0]
     //room_goto(rm_GameOver); this is in the alarm[0]
 }
