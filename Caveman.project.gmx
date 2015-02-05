@@ -91,6 +91,8 @@
       <object>objects\obj_TitleSound</object>
       <object>objects\obj_GameSound</object>
       <object>objects\obj_Space</object>
+      <object>objects\obj_wasd</object>
+      <object>objects\obj_Mouse</object>
     </objects>
     <object>objects\obj_Heart</object>
     <object>objects\objFb2</object>

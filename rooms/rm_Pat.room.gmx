@@ -150,11 +150,6 @@
     <instance objName="obj_Fire" x="4344" y="567" name="inst_446102FF" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy1" x="4380" y="544" name="inst_C1191E74" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="4451" y="546" name="inst_1F22AF99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_ECCE845E" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_E745F4EA" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_D6A59393" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_F2B3EEA4" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_B2CED971" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_Platform" x="1880" y="396" name="inst_5C99F025" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Heart" x="2761" y="413" name="inst_97F7AEC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2160" y="242" name="inst_9CDF9F77" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>

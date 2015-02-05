@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>controlSpace = "Axe Attack, Ugg";
-space = 44;
+            <string>controlSpace = "Jump, Ugg";
+space = 74;
 </string>
           </argument>
         </arguments>
