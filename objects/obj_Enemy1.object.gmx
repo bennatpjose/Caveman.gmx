@@ -33,7 +33,7 @@ grav = 0.2;
 hsp = 0;
 vsp = 0;
 invincible = 1;
-image_speed=0.25;
+image_speed=0.15;
 </string>
           </argument>
         </arguments>
