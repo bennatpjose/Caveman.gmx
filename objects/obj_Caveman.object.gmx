@@ -220,19 +220,19 @@ health-=20;
 //Get the players input
 if(bounce = true &amp;&amp; burn==0)
 {
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_up);
-key_shoot = keyboard_check_pressed(vk_space);
+key_right = keyboard_check(ord('D'));
+key_left = -keyboard_check(ord('A'));
+key_jump = keyboard_check_pressed(vk_space);
+key_shoot = mouse_check_button_pressed(mb_left);
 
 
 //Changing caveman sprite when pressing left or right 
 
-    if(keyboard_check(vk_left))
+    if(keyboard_check(ord('A')))
     {
         sprite_index=spr_CavemanLeft;
     }
-    else if(keyboard_check(vk_right))
+    else if(keyboard_check(ord('D')))
     {
         sprite_index=spr_Caveman;    
     }
