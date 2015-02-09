@@ -61,8 +61,8 @@
     <script>scripts\scr_GameOver.gml</script>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\fnt_Menu</font>
     <font>fonts\fnt_Control</font>
+    <font>fonts\fnt_Menu</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_Caveman</object>

@@ -503,11 +503,11 @@ alarm[3]=50;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>7</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>33</string>
+            <string>40</string>
           </argument>
           <argument>
             <kind>1</kind>

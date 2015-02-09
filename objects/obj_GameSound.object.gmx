@@ -53,7 +53,7 @@ audio_play_sound(snd_Game,1,0);
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="77">
+    <event eventtype="9" enumb="77">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -72,7 +72,7 @@ audio_play_sound(snd_Game,1,0);
             <kind>1</kind>
             <string>if mute = 'false'
 {
-       show_message("Pausing snd_Game");
+      // show_message("Pausing snd_Game");
        audio_pause_sound(snd_Game);
        mute = 'true'
        
@@ -81,7 +81,7 @@ audio_play_sound(snd_Game,1,0);
 else
 {
        mute = 'false';
-       show_message("Mute = False. Audio Should Play.");
+      // show_message("Mute = False. Audio Should Play.");
        audio_play_sound(snd_Game,1,1);
 }
 </string>
