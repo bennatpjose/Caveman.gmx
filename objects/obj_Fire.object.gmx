@@ -75,7 +75,8 @@ with (obj_Caveman) sprite_index = spr_CavemanStanding;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_Caveman) bounce = true;
+            <string>//show_message("This is being run in Alarm1 of Fire object");
+with (obj_Caveman) bounce = true;
 with (obj_Caveman) sprite_index = spr_CavemanStandingLeft;
 </string>
           </argument>

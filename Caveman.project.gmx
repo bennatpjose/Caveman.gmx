@@ -45,6 +45,8 @@
     <sprite>sprites\spr_TRexDeath</sprite>
     <sprite>sprites\spr_Heart</sprite>
     <sprite>sprites\spr_PlatformAir</sprite>
+    <sprite>sprites\spr_CavemanDeath</sprite>
+    <sprite>sprites\sprAngel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Hills</background>
@@ -95,6 +97,7 @@
     <object>objects\obj_Heart</object>
     <object>objects\objFb2</object>
     <object>objects\objFb2Spawner</object>
+    <object>objects\objDyingCaveman</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Title</room>

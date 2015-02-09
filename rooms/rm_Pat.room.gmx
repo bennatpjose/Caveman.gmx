@@ -73,21 +73,21 @@
     <instance objName="obj_Platform" x="867" y="306" name="inst_8996A897" locked="0" code="" scaleX="0.600000023841858" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Platform" x="887" y="305" name="inst_A5B73433" locked="0" code="" scaleX="0.600000023841858" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_Platform" x="610" y="313" name="inst_BB131DCD" locked="0" code="" scaleX="0.200000002980232" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Heart" x="564" y="291" name="inst_B38CDB1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="562" y="292" name="inst_B38CDB1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="708" y="477" name="inst_ED3C274C" locked="0" code="" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="693" y="150" name="inst_8AFB6A87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="804" y="430" name="inst_8DA4DC46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Heart" x="27" y="295" name="inst_D358C364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="804" y="428" name="inst_8DA4DC46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="25" y="292" name="inst_D358C364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="404" y="416" name="inst_0B99848B" locked="0" code="" scaleX="0.150000005960464" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="456" y="301" name="inst_71E40550" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="398" y="368" name="inst_4BDC2EB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="399" y="366" name="inst_4BDC2EB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="637" y="608" name="inst_C0592FA2" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy1" x="560" y="108" name="inst_3BBD174D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy1" x="691" y="526" name="inst_DB7611FB" locked="0" code="" scaleX="0.74436092376709" scaleY="0.847826063632965" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="672" y="667" name="inst_577A058B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="1161" y="665" name="inst_7E98B3E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="994" y="557" name="inst_422EEFCC" locked="0" code="" scaleX="0.200000002980232" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Heart" x="940" y="536" name="inst_966DFC86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Heart" x="940" y="535" name="inst_966DFC86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy1" x="1026" y="481" name="inst_52DD0F26" locked="0" code="" scaleX="-0.880596995353699" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="1701" y="431" name="inst_9F09C870" locked="0" code="" scaleX="0.550000011920929" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Platform" x="1654" y="631" name="inst_48BF2C3C" locked="0" code="" scaleX="0.0799999982118607" scaleY="1" colour="4294967295" rotation="0"/>
@@ -99,8 +99,8 @@
     <instance objName="obj_Platform" x="2020" y="330" name="inst_68562E69" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2600" y="308" name="inst_A0A567B5" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="1640" y="95" name="inst_A756121A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="1740" y="93" name="inst_D6509D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="1848" y="96" name="inst_50A1B097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1740" y="95" name="inst_D6509D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="1845" y="95" name="inst_50A1B097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2589" y="68" name="inst_9AA7F4C4" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2718" y="39" name="inst_5CEE3941" locked="0" code="" scaleX="0.0700000002980232" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Heart" x="2683" y="49" name="inst_19CA5937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -134,7 +134,7 @@
     <instance objName="obj_Fire" x="4071" y="664" name="inst_ECE181B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="4660" y="594" name="inst_8DC1F34D" locked="0" code="" scaleX="0.699999988079071" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="5891" y="448" name="inst_FF12332C" locked="0" code="" scaleX="0.4296875" scaleY="0.515625" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="4640" y="506" name="inst_F294E2A0" locked="0" code="" scaleX="1.75" scaleY="1.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="4640" y="511" name="inst_F294E2A0" locked="0" code="" scaleX="1.75" scaleY="1.75" colour="4294967295" rotation="0"/>
     <instance objName="objFb2Spawner" x="6180" y="528" name="inst_9FEF09B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="3600" y="660" name="inst_80736773" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="5815" y="587" name="inst_0AF1BE52" locked="0" code="" scaleX="0.150000005960464" scaleY="1" colour="4294967295" rotation="0"/>
@@ -149,7 +149,7 @@
     <instance objName="obj_Heart" x="4278" y="81" name="inst_01E172A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="4344" y="567" name="inst_446102FF" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy1" x="4380" y="544" name="inst_C1191E74" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Fire" x="4451" y="546" name="inst_1F22AF99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fire" x="4449" y="544" name="inst_1F22AF99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="1880" y="396" name="inst_5C99F025" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Heart" x="2761" y="413" name="inst_97F7AEC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform" x="2160" y="242" name="inst_9CDF9F77" locked="0" code="" scaleX="0.0500000007450581" scaleY="1" colour="4294967295" rotation="0"/>
