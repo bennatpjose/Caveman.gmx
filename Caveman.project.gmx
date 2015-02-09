@@ -97,8 +97,8 @@
     <object>objects\objFb2Spawner</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Main_Menu</room>
     <room>rooms\rm_Title</room>
+    <room>rooms\rm_Main_Menu</room>
     <room>rooms\rm_Pat</room>
     <room>rooms\rm_GameOver</room>
     <room>rooms\rm_credits</room>

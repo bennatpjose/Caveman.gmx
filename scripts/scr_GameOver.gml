@@ -10,6 +10,7 @@ switch (mpos)
     
     case 1:
     {
+        show_message("SHOULD GO TO RM_CREDITS");
         room_goto(rm_credits);
         break;
     }
