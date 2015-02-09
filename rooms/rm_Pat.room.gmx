@@ -177,7 +177,7 @@
     <instance objName="obj_Fire" x="5256" y="664" name="inst_A1A131F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy1" x="5342" y="622" name="inst_248BD754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Fire" x="6080" y="663" name="inst_28C2E719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Caveman" x="38" y="688" name="inst_FF14E3E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Caveman" x="38" y="665" name="inst_FF14E3E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

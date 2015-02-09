@@ -39,7 +39,6 @@
       <sprite>sprites\spr_smokingmonkey</sprite>
       <sprite>sprites\spr_Space</sprite>
       <sprite>sprites\spr_WASD</sprite>
-      <sprite>sprites\spr_Mouse</sprite>
     </sprites>
     <sprite>sprites\spr_CavemanStanding</sprite>
     <sprite>sprites\spr_CavemanStandingLeft</sprite>
@@ -92,15 +91,14 @@
       <object>objects\obj_GameSound</object>
       <object>objects\obj_Space</object>
       <object>objects\obj_wasd</object>
-      <object>objects\obj_Mouse</object>
     </objects>
     <object>objects\obj_Heart</object>
     <object>objects\objFb2</object>
     <object>objects\objFb2Spawner</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Title</room>
     <room>rooms\rm_Main_Menu</room>
+    <room>rooms\rm_Title</room>
     <room>rooms\rm_Pat</room>
     <room>rooms\rm_GameOver</room>
     <room>rooms\rm_credits</room>
