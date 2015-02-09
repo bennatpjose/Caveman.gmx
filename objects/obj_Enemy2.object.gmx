@@ -79,10 +79,17 @@ invincible = 1;
             <kind>1</kind>
             <string>// Changing the sprite when the bat turns at path
 //Variables are coming from obj_Enemy2Spawner
-if( x &lt; TurnRightAt  )
-    sprite_index  =spr_Enemy2Right;
-if ( x &gt; TurnLeftAt  )
-    sprite_index=spr_Enemy2;
+//if( x &lt; TurnRightAt  )
+  //  sprite_index  =spr_Enemy2Right;
+//if ( x &gt; TurnLeftAt  )
+  //  sprite_index=spr_Enemy2;
+
+ 
+if(direction&lt;90||direction&gt;270){
+sprite_index=spr_Enemy2Right;
+}
+else
+sprite_index=spr_Enemy2;   
 
 </string>
           </argument>

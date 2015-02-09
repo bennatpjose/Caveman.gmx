@@ -336,14 +336,17 @@ if(key_shoot)
         if(sprite_index=spr_CavemanLeft || sprite_index=spr_CavemanStandingLeft)
         {
             stoneaxe.direction=180;
+            stoneaxe.image_xscale=-1;
             audio_play_sound(throwing_weapon, 10, false);
         }
         else if(sprite_index=spr_Caveman || sprite_index=spr_CavemanStanding)
         {
             stoneaxe.direction=0;
+            //stoneaxe.image_yscale = -1;
             audio_play_sound(throwing_weapon, 10, false);
         }
         stoneaxe.image_angle=image_angle;
+        
         stoneaxe.speed=10;
         alarm[0]=30;
     }
@@ -351,7 +354,7 @@ if(key_shoot)
 
 // Death Animation
 
-if(health==0){
+if(health&lt;=0){
 //show_message("inside health&lt;=0");
 //sprite_index=spr_CavemanDeath;
 
