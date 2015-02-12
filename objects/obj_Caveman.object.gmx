@@ -585,14 +585,18 @@ alarm[3]=50;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cheat=get_string("","")
+            <string>///Cheat Code
+cheat=get_string("","")
 if(cheat="godmod"){
 health=100;
+<<<<<<< HEAD
 
 }
 if(cheat="batman"){
 sindex=2;
 sprite_index=spr_BatmanStanding;
+=======
+>>>>>>> origin/master
 }
 
 </string>
