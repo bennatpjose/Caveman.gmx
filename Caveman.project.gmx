@@ -47,6 +47,7 @@
     <sprite>sprites\spr_PlatformAir</sprite>
     <sprite>sprites\spr_CavemanDeath</sprite>
     <sprite>sprites\sprAngel</sprite>
+    <sprite>sprites\spr_Rocket</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Hills</background>

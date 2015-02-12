@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>mute = 'false';
 //sound_play(snd_Game);
-audio_play_sound(snd_Game,1,0);
+audio_play_sound(snd_Game,1,1);
 </string>
           </argument>
         </arguments>

@@ -121,7 +121,7 @@ bounce=true;
           <argument>
             <kind>1</kind>
             <string>/// Room Change and Stop game sound
-show_message("This is Alarm 4");
+//show_message("This is Alarm 4");
 //instance_destroy();
 
 //sound_stop(snd_Game) ;room_goto(rm_GameOver);
@@ -468,6 +468,34 @@ alarm[3]=50;
           <argument>
             <kind>1</kind>
             <string>Score: </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="27">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cheat=get_string("","")
+if(cheat="godmod"){
+health=100;
+sprite_index=spr_Rocket;
+}
+
+</string>
           </argument>
         </arguments>
       </action>
