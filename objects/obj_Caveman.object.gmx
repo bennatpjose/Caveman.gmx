@@ -489,10 +489,10 @@ alarm[3]=50;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cheat=get_string("","")
+            <string>///Cheat Code
+cheat=get_string("","")
 if(cheat="godmod"){
 health=100;
-sprite_index=spr_Rocket;
 }
 
 </string>
