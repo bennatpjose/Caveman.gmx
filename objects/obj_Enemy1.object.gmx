@@ -103,7 +103,17 @@ image_speed=0.15;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (obj_Caveman) sprite_index = spr_Caveman;
+            <string>with(obj_Caveman)
+{
+    if(sindex=1)
+    {
+        sprite_index = spr_Caveman;
+    }
+    else if(sindex=2)
+    {
+        sprite_index = spr_BatmanStanding;
+    }
+}
 invincible = 1;
 </string>
           </argument>
@@ -185,10 +195,21 @@ if (place_meeting(x,y,obj_Caveman))
     {
         if (invincible = 1)
         {
-            with (obj_Caveman) health -= 20;            
-            with (obj_Caveman) sprite_index = spr_Caveman_Hurt;
-            invincible = 0;
-            alarm[0] = 60;            
+            with (obj_Caveman)
+            {
+                health -= 20;
+                if(sindex=1)
+                {                           
+                    sprite_index = spr_Caveman_Hurt;     
+                }
+                else if(sindex=2)    
+                {                            
+                    sprite_index = spr_BatmanHurt;
+                    
+                } 
+                invincible = 0;
+                alarm[0] = 60;
+            }     
             
        /*     with(obj_Caveman)
             {

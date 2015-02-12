@@ -74,6 +74,7 @@ movespeed = 4;
 image_speed=0.1;
 throw_axe=true;
 bounce=true;
+sindex=1;
 </string>
           </argument>
         </arguments>
@@ -99,6 +100,52 @@ bounce=true;
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sprite_index=spr_BatmanStanding;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sprite_index=spr_BatmanStandingLeft;
+</string>
           </argument>
         </arguments>
       </action>
@@ -247,39 +294,63 @@ health-=20;
 //Get the players input
 if(bounce = true &amp;&amp; burn==0)
 {
-key_right = keyboard_check(ord('D'));
-key_left = -keyboard_check(ord('A'));
-key_jump = keyboard_check_pressed(ord('W'));
-key_shoot = keyboard_check_pressed(vk_space);
-
-
-//Changing caveman sprite when pressing left or right 
-
-    if(keyboard_check(ord('A')))
+    key_right = keyboard_check(ord('D'));
+    key_left = -keyboard_check(ord('A'));
+    key_jump = keyboard_check_pressed(ord('W'));
+    key_shoot = keyboard_check_pressed(vk_space);
+    
+    
+    //Changing caveman sprite when pressing left or right 
+    if(sindex=1)
     {
-        sprite_index=spr_CavemanLeft;
-    }
-    else if(keyboard_check(ord('D')))
-    {
-        sprite_index=spr_Caveman;    
-    }
-    else
-    {
-        if(sprite_index=spr_Caveman)
+        if(keyboard_check(ord('A')))
         {
-            sprite_index=spr_CavemanStanding;
+            sprite_index=spr_CavemanLeft;
         }
-        if(sprite_index=spr_CavemanLeft)
+        else if(keyboard_check(ord('D')))
         {
-            sprite_index=spr_CavemanStandingLeft;
+            sprite_index=spr_Caveman;    
+        }
+        else
+        {
+            if(sprite_index=spr_Caveman)
+            {
+                sprite_index=spr_CavemanStanding;
+            }
+            if(sprite_index=spr_CavemanLeft)
+            {
+                sprite_index=spr_CavemanStandingLeft;
+            }
         }
     }
-  
-
-
-//React to inputs
-move = key_left + key_right;
-hsp = move * movespeed;
+    else if(sindex=2)
+    {
+        if(keyboard_check(ord('A')))
+        {
+            sprite_index=spr_BatmanWalkingLeft;
+        }
+        else if(keyboard_check(ord('D')))
+        {
+            sprite_index=spr_BatmanWalking;    
+        }
+        else
+        {
+            if(sprite_index=spr_BatmanWalking)
+            {
+                sprite_index=spr_BatmanStanding;
+            }
+            if(sprite_index=spr_BatmanWalkingLeft)
+            {
+                sprite_index=spr_BatmanStandingLeft;
+            }
+        }
+    }
+      
+    
+    
+    //React to inputs
+    move = key_left + key_right;
+    hsp = move * movespeed;
 }
 if (vsp &lt; 10) vsp+=grav;
 
@@ -332,22 +403,47 @@ if(key_shoot)
     {
         throw_axe=false;
         var stoneaxe;
-        stoneaxe=instance_create(x,y,obj_StoneAxe);
-        if(sprite_index=spr_CavemanLeft || sprite_index=spr_CavemanStandingLeft)
+        if(sindex=1)
         {
-            stoneaxe.direction=180;
-            stoneaxe.image_xscale=-1;
-            audio_play_sound(throwing_weapon, 10, false);
+            stoneaxe=instance_create(x,y,obj_StoneAxe);
+            if(sprite_index=spr_CavemanLeft || sprite_index=spr_CavemanStandingLeft)
+            {
+                stoneaxe.direction=180;
+                stoneaxe.image_xscale=-1;
+                audio_play_sound(throwing_weapon, 10, false);
+            }
+            else if(sprite_index=spr_Caveman || sprite_index=spr_CavemanStanding)
+            {
+                stoneaxe.direction=0;
+                //stoneaxe.image_yscale = -1;
+                audio_play_sound(throwing_weapon, 10, false);
+            }
+            stoneaxe.image_angle=image_angle;
+            
+            stoneaxe.speed=10;
         }
-        else if(sprite_index=spr_Caveman || sprite_index=spr_CavemanStanding)
+        if(sindex=2)
         {
-            stoneaxe.direction=0;
-            //stoneaxe.image_yscale = -1;
-            audio_play_sound(throwing_weapon, 10, false);
+            stoneaxe=instance_create(x,y,obj_StoneAxe);
+            if(sprite_index=spr_BatmanWalkingLeft || sprite_index=spr_BatmanStandingLeft)
+            {
+                sprite_index=spr_BatmanThrowingLeft;
+                alarm[5]=30;
+                stoneaxe.direction=180;
+                stoneaxe.image_xscale=-1;
+                audio_play_sound(throwing_weapon, 10, false);
+            }
+            else if(sprite_index=spr_BatmanWalking || sprite_index=spr_BatmanStanding)
+            {
+                sprite_index=spr_BatmanThrowing;
+                alarm[6]=30;
+                stoneaxe.direction=0;
+                //stoneaxe.image_yscale = -1;
+                audio_play_sound(throwing_weapon, 10, false);
+            }
+            stoneaxe.image_angle=image_angle;            
+            stoneaxe.speed=10;
         }
-        stoneaxe.image_angle=image_angle;
-        
-        stoneaxe.speed=10;
         alarm[0]=30;
     }
 }
@@ -492,7 +588,11 @@ alarm[3]=50;
             <string>cheat=get_string("","")
 if(cheat="godmod"){
 health=100;
-sprite_index=spr_Rocket;
+
+}
+if(cheat="batman"){
+sindex=2;
+sprite_index=spr_BatmanStanding;
 }
 
 </string>
